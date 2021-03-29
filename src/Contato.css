@@ -1,0 +1,52 @@
+.CSection {
+  display: flex;
+  justify-content: center;
+  animation: pageLoading 0.1s linear;
+}
+
+.Container {
+  display: flex;
+  width: 700px;
+  max-height: 400px;
+  flex-flow: column wrap;
+  /* Wrap behavior */
+  align-content: flex-start;
+  background-color: #00000006;
+  box-shadow: 0 0 10px grey;
+  margin: 30px 0;
+}
+
+.Cdiv {
+  /* Make the elements grow by it's size */
+  align-self: flex-start;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 10px 10px;
+}
+
+.Cdiv:nth-child(2) {
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.Cimg {
+  height: 400px;
+}
+
+.bar {
+  color: #a9a9a9;
+  font-size: 30px;
+  animation: lol 2s infinite;
+}
+
+@keyframes lol {
+  0% {
+    color: #a9a9a9;
+  }
+  50% {
+    color: #a9a9a900;
+  }
+  100% {
+    color: #a9a9a9;
+  }
+}

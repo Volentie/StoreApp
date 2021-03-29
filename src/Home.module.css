@@ -1,0 +1,49 @@
+header {
+  /* Buttons align center */
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-right: 20px;
+}
+
+main {
+  background-color: #00000006;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+  padding: 30px;
+  /* Divs align center */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px 100px;
+}
+
+.divs {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Links */
+a,
+a:visited,
+a:link,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: 0 0 5px grey;
+}
